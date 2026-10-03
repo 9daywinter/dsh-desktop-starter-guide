@@ -129,6 +129,8 @@ node tools/check-tutorial.mjs
 
 改完教程记得跑一次；新增了界面元素而忘了接上事件，这个脚本能拦下一部分。
 
+> 如果 Actions 尚未启用，CI 贴纸会一直不出现，但那只是没在跑，**不代表校验通过**。请以上面本地命令的输出为准，或到仓库的 Actions 页手动触发。
+
 ## 许可
 
 [MIT](LICENSE) © 2026 [9daywinter](https://github.com/9daywinter)
