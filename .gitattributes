@@ -1,0 +1,16 @@
+# normalize line endings so the single-file HTML stays byte-stable across platforms
+* text=auto eol=lf
+
+*.html text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+
+# keep binary assets untouched if any are added later
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary

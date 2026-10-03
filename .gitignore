@@ -1,0 +1,19 @@
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# scratch / local output
+_extract/
+_pkg*/
+_*.mjs
+_*.ps1
+*.tmp
